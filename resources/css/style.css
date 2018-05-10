@@ -7,13 +7,14 @@ font-family: Helvetica, sans-serif;
 color: seashell;
 opacity: 0.9;
 text-align:center;
+
 }
 /* here is the code which makes the header logo move left and links move right using the space between justify-content*/
 header{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items:center;
   position: fixed;
   z-index: 1;
   width: 100%;
@@ -21,7 +22,6 @@ header{
   border-bottom: 1px solid seashell;
   font-family: "Helvetica", sans-serif;
   font-size: 22px;
-
 }
 
  /*Logo for header top left*/
@@ -34,5 +34,24 @@ height: 50px
 a{
   color: seashell;
   opacity: 0.9;
-text-decoration: underline;
+text-decoration: underline;}
+
+
+
+/*OurMission*/
+/*.our-mission{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;*/
+
+
+
+}
+h2 h4{
+  text-align: center;
+
+}
+ .rum, .berry, .donut, .ave-tea, .bizarre-tea{
+  height: 200px;
+  width: 300px;
 }
