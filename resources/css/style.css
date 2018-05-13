@@ -46,6 +46,7 @@ text-decoration: underline;}
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
   height: 700px;
   width: 1200px;
+  border: 10px;
 
 
 }
@@ -62,24 +63,63 @@ h2 h4{
  .rum, .berry, .donut, .ave-tea, .bizarre-tea{
   height: 200px;
   width: 300px;
+
+
+}
+
+.tea-div{
+  height: 300px;
+  width: 400px;
+}
+.Tea-of-the-month{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
 /*//////////////////////////////////////////////////////Oakdale code with back ground image//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 
-}
-p{
+
+p h4{
   opacity: 1;
 }
 .Oakdale{
+background-color: black;
+margin: 40px;
+width:300px;
+height: 300px;
+}
+.East-bayside{
+  background-color: black;
+  margin: 40px;
+  width:300px;
+  height: 300px;
+}
 
+.downtown{
+  background-color: black;
+  margin: 40px;
+  width:300px;
+  height: 300px;
 }
 .Location{
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
-  height: 500px;
+  height: 600px;
   width: 1200px;
+  display:inline-flex;
+  justify-content: center;
+  flex-direction:
+
+
+
 }
 
 /*///////////////////////////////////////////////////////footer code//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 footer{
   text-align: left;
   margin-left: 20px;
+  height: 200px;
 }
